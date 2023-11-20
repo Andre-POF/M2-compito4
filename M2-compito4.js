@@ -106,3 +106,105 @@ for (let i = 0; i < utenti.length; i++){
 //console.log(soloAmbassador);
 
 */
+
+
+// ORDINARE UN ARRAY CON 5 ELEMENTI ALEATORI ( NELLA CONDIZIONE IF BASTA CAMBIARE DAL MAGGIORE AL MINORE PER OTTENERE ORDINE ASCENDENTE O DISCENDENTE)
+
+// let randomArr = [];
+
+// for(let i = 0; i < 5; i++) {
+//   randomArr.push(Math.floor(Math.random()*100));
+// }
+
+// let num;
+
+// for ( let i = 0; i < randomArr.length -1; i++) {
+
+//   for (let j = i; j < randomArr.length ; j++) {
+//     if(randomArr[i]>randomArr[j+1]){
+//       num = randomArr[j+1];
+//       randomArr[j+1]=randomArr[i];
+//       randomArr[i]=num;
+//     }
+//   }
+// }
+
+// console.log(randomArr);
+
+
+
+// INVERSIONE  DI  UN  ARRAY
+
+// let array = [4,89,1,3];
+// let newArray = [];
+// let j = array.length -1;
+
+
+// for (let i = array.length -1; i> -1; i--) {
+//   newArray.push(array[i]);
+// }
+// console.log(newArray);
+
+
+
+//  TERZO ARRAY CON LA SOMA DI OGNI ELEMENTO DI DUE ARRRAY GIA ESISTENTI
+
+// let array1 = [5,2,8];
+// let array2 = [9,3,6];
+// let arrayFinal = [];
+
+// for ( let i = 0; i < array1.length; i++) {
+//   sum = array1[i] + array2[i];
+//   arrayFinal.push(sum);
+// }
+
+// console.log(arrayFinal);
+
+
+
+
+// TOMBOLA!!
+
+
+/*
+let arrTen = [];
+
+
+for(let i = 0; i < 10; i++) {
+  let num = Math.floor((Math.random()*90) +1);
+    arrTen.push(num); 
+}
+
+console.log(arrTen);
+
+let arrTen2 = [42,65,80,55,22,8,9,12,34,7];
+
+let countArr = 0;
+
+for( let i = 0; i < arrTen.length; i++){
+  for( let j = 0; j < arrTen2.length; j++)
+    if ( arrTen[i] === arrTen2[j]){
+      countArr++;
+      console.log(arrTen[i]);
+      //console.log(countArr);
+    }
+}
+
+switch (countArr) {
+
+  case 1: console.log(" one match! ");
+    break;
+  case 2: console.log(" Ambo ");
+    break;
+  case 3: console.log(" Terna ");
+    break;
+  case 4: console.log(" Quaterna ");
+    break;
+  case 5: console.log(" Cinquina ");
+    break;
+  case 10: console.log(" Tombola! ");
+    break;
+  default:console.log(" no match! ");
+    break;
+}
+*/
